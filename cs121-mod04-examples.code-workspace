@@ -1,17 +1,19 @@
 {
 	"folders": [
 		{
-			"name": "BooleanExpressions",
+			"name": "Boolean Expressions",
 			"path": "BooleanExpressions"
 		},
 		{
 			"name": "Conditionals",
 			"path": "Conditionals"
 		},
-		{
-			"path": "Data Comparisons"
+		{	
+			"name": "Data Comparisons"
+			"path": "DataComparisons"
 		},
 		{
+			"name": "Switch Statements"
 			"path": "SwitchStatements"
 		}
 	],
