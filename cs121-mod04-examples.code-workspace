@@ -9,11 +9,11 @@
 			"path": "Conditionals"
 		},
 		{	
-			"name": "Data Comparisons"
+			"name": "Data Comparisons",
 			"path": "DataComparisons"
 		},
 		{
-			"name": "Switch Statements"
+			"name": "Switch Statements",
 			"path": "SwitchStatements"
 		}
 	],
