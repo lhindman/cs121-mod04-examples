@@ -7,6 +7,9 @@
 		{
 			"name": "Conditionals",
 			"path": "Conditionals"
+		},
+		{
+			"path": "Data Comparisons"
 		}
 	],
 	"settings": {
