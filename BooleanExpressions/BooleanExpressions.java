@@ -1,5 +1,3 @@
-package inclass;
-
 /**
  * Demonstrates boolean expressions using comparison
  * and logical operators.

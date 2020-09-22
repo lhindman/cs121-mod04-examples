@@ -9,12 +9,12 @@ public class SmartHome {
     public static void main(String[] args)
     {
         final int MAX_TIME = 60; // minutes
-        boolean alertMode = false;
-        boolean lightsOn = false;
-        boolean away = false;
-        int timeOn = 0; //minutes
+        boolean alertMode = false; 
+        boolean lightsOn = false; 
+        boolean away = false; 
+        int timeOn = 0; //minutes 
 
-        boolean alert = alertMode && (lightsOn && away || timeOn > MAX_TIME);
+        boolean alert = alertMode && ( (lightsOn && away) || (timeOn > MAX_TIME));
 
         System.out.println("An alert has been triggered: " + alert);
     }
