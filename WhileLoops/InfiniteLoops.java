@@ -10,8 +10,10 @@ public class InfiniteLoops {
 
         // while(true) 
         // {
-        //     System.out.println("Can you hear me now?  :)");
+        //      System.out.println("Can you hear me now?  :)");
         // }
+        
+         
 
         /* Sometimes an infinitely loop occurs when we move away from the 
          *   looping condition */
@@ -26,7 +28,7 @@ public class InfiniteLoops {
          *   and impossible value */
         Scanner kbd = new Scanner(System.in);
         String input = "";  //Starting condition
-        while (input.equals("Q")) //looping condition
+        while (!input.equals("Q")) //looping condition
         {
             System.out.print("Enter something (q to quit): ");
             input = kbd.nextLine().toLowerCase(); //loop iterator
