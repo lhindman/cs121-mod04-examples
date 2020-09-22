@@ -18,7 +18,7 @@ public class HigherLower
 		
 		int value = random.nextInt(MAX_VALUE) + 1;
 		
-		System.out.print("Guess a number between 0 and " + MAX_VALUE + ": ");
+		System.out.print("Guess a number between 1 and " + MAX_VALUE + ": ");
 		int input = scan.nextInt();
 		
 		if(input == value)

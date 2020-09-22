@@ -35,6 +35,7 @@ public class Guessing
 			System.out.println("That is not correct, sorry.");
 			System.out.println("The number was " + answer);
 		}
+		System.out.println("Thanks for playing!");
 		scan.close();
 	}
 }
