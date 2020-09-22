@@ -5,16 +5,19 @@
 			"path": "BooleanExpressions"
 		},
 		{
-			"name": "Conditionals",
-			"path": "Conditionals"
-		},
-		{	
 			"name": "Data Comparisons",
 			"path": "DataComparisons"
 		},
 		{
+			"name": "Conditionals",
+			"path": "Conditionals"
+		},
+		{
 			"name": "Switch Statements",
 			"path": "SwitchStatements"
+		},
+		{
+			"path": "WhileLoops"
 		}
 	],
 	"settings": {
