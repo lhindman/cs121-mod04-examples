@@ -109,6 +109,9 @@ Steps to Clone Examples
 ## While Loop Experimentation
 1. Open *BasicWhileLoops.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Off by one errors are incredibly common, especially when working with loops.  Modify the numCookies example, replacing the '>' with '>=' in the loop expression. What is the result and why?
+    ```
+    while (numCookies >= 1) 
+    ```
     - Matching entire strings can be very constraining when dealing with user input. Depending upon the requirements of the application, it may be convient to only check the first character of the string instead of the entire contents of the string.  Modify the loop expression as shown below to exit on and string that begins with a 'q'. Try a variety of words that start with the letter 'q' or 'Q' to see how this code behaves. What is the result?  Why did I need to check for the length() before accessing the character at index 0?  
     ```
     while ( !(input.length() > 0 && input.charAt(0) == 'q') ) 
