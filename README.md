@@ -122,7 +122,7 @@ Steps to Clone Examples
     - Implement the for loop that reverses the text in the *word* String variable store the result the *reverse* String variable. This is presented in the deeper look videos if you get stuck. Study your implementation in detail then write your observations, describing in your own words exactly how the string is reversed.
 
 1. Open *NestedLoops.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - In the "I'm here!" example, replace in inner for loop with the while loop shown below. What is the result and why?  
+    - In the "I'm here!" example, replace the inner *for-loop* with the *while-loop* shown below. What is the result and why?  
     ```
     int j = 0;
     while (j < 10)
