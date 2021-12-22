@@ -69,7 +69,7 @@ Steps to Clone Examples
 
 ## Conditional Experimentation
 1. Open *MinOfThree.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Run the program with each of the following sets of input values and record the results of each. What is the result and why?  
+    - Run the program with each of the following sets of input values and record the results of each. 
         - 1 2 3
         - 3 2 1
         - 1 1 3
@@ -97,22 +97,17 @@ Steps to Clone Examples
     ```
       
 ## Switch Statement Experimentation
-1. Open *Echo.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the line that reads input using the **nextLine()** Scanner method to use the **next()** Scanner method as shown below. What is the result and why?
-    ```
-    message = scan.next();
-    ```
-
-1. Open *Milage.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - When prompted for number of miles enter: **12.0**  What is the result and why?  
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **two**  What is the result and why?
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **2**  What is the result and why?
-
+1. Open *GradeReport.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Run the program with each of the following grades as input values and record the results of each. 
+        - 95
+        - 83
+        - 71
+        - 64
+        - 59
+    - Modify the switch statement by removing all of the *break* statements. The run the program again with the above values. What is the result and why?
 
 ## While Loop Experimentation
-1. Open *Echo.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+1. Open *BasicWhileLoops.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Modify the line that reads input using the **nextLine()** Scanner method to use the **next()** Scanner method as shown below. What is the result and why?
     ```
     message = scan.next();
