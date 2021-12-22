@@ -108,19 +108,12 @@ Steps to Clone Examples
 
 ## While Loop Experimentation
 1. Open *BasicWhileLoops.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the line that reads input using the **nextLine()** Scanner method to use the **next()** Scanner method as shown below. What is the result and why?
+    - Off by one errors are incredibly common, especially when working with loops.  Modify the numCookies example, replacing the '>' with '>=' in the loop expression. What is the result and why?
+    - Matching entire strings can be very constraining when dealing with user input. Depending upon the requirements of the application, it may be convient to only check the first character of the string instead of the entire contents of the string.  Modify the loop expression as shown below to exit on and string that begins with a 'q'. Try a variety of words that start with the letter 'q' or 'Q' to see how this code behaves. What is the result?  Why did I need to check for the length() before accessing the character at index 0?  
     ```
-    message = scan.next();
+    while ( !(input.length() > 0 && input.charAt(0) == 'q') ) 
     ```
-
-1. Open *Milage.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - When prompted for number of miles enter: **12.0**  What is the result and why?  
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **two**  What is the result and why?
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **2**  What is the result and why?
-
-
+    
 ## For Loop Experimentation
 1. Open *Echo.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Modify the line that reads input using the **nextLine()** Scanner method to use the **next()** Scanner method as shown below. What is the result and why?
