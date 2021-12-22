@@ -118,15 +118,30 @@ Steps to Clone Examples
     ```
     
 ## For Loop Experimentation
-1. Open *Echo.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the line that reads input using the **nextLine()** Scanner method to use the **next()** Scanner method as shown below. What is the result and why?
+1. Open *StringsAndLoops.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Implement the for loop that reverses the text in the *word* String variable store the result the *reverse* String variable. This is presented in the deeper look videos if you get stuck. Study your implementation in detail then write your observations, describing in your own words exactly how the string is reversed.
+
+1. Open *NestedLoops.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - In the "I'm here!" example, replace in inner for loop with the while loop shown below. What is the result and why?  
     ```
-    message = scan.next();
+    int j = 0;
+    while (j < 10)
+    {
+        System.out.println("I'm here!");
+        j++;
+    }
     ```
-
-1. Open *Milage.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - When prompted for number of miles enter: **12.0**  What is the result and why?  
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **two**  What is the result and why?
-
-    - When prompted for number of miles enter: **12**, when prompted for the gallons of fuel used enter: **2**  What is the result and why?
+ 
+    - In the grid example, modify it using the code below so that numRows and numCols can be specified separately. Then experiment with various combinations of rows and columns and write your observations of how the program behaves.
+    ```
+    int numRows = 10;
+    int numCols = 10;
+    for (int i = 0; i < numRows; i++ )
+    {
+        for (int j = 0; j < numCols; j++ )
+        {
+            System.out.print(i * j + " ");
+        }
+        System.out.println();
+    }
+    ```
