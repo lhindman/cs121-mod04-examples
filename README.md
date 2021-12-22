@@ -132,7 +132,7 @@ Steps to Clone Examples
     }
     ```
  
-    - In the grid example, modify it using the code below so that numRows and numCols can be specified separately. Then experiment with various combinations of rows and columns and write your observations of how the program behaves.
+    - In the grid example, modify it using the code below so that numRows and numCols can be specified separately. Then experiment with various combinations of rows and columns and write your observations of how the program behaves. Notice that the print() method has been replaced with printf() and that a format specifier is used to provided a fixed spacing for the output values.
     ```
     int numRows = 10;
     int numCols = 10;
@@ -140,7 +140,7 @@ Steps to Clone Examples
     {
         for (int j = 0; j < numCols; j++ )
         {
-            System.out.print(i * j + " ");
+            System.out.printf("%3d",i * j );
         }
         System.out.println();
     }
