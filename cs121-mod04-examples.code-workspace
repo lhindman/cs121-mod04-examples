@@ -1,6 +1,9 @@
 {
 	"folders": [
 		{
+			"path": "ExperimentationGuide"
+		},
+		{
 			"name": "Boolean Expressions",
 			"path": "BooleanExpressions"
 		},
@@ -32,6 +35,7 @@
 			"**/.DS_Store": true,
 			"**/.placeholder": true,
 			"**/.vscode": true
-		}
+		},
+		"git.openRepositoryInParentFolders":"always"
 	}
 }
