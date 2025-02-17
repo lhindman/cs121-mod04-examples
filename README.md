@@ -47,28 +47,7 @@ Steps to Clone Examples
     timeOn = 0
     ```
 
-      
-## Data Comparison Experimentation
-1. Open *FloatingPointComparison.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Experiment by decreasing TOLERANCE values, identifying which provide a match that is "close enough"
-    ```
-    final double TOLERANCE = 0.00000000000001;
-    final double TOLERANCE = 0.000000000000001;
-    final double TOLERANCE = 0.0000000000000001;
-    final double TOLERANCE = 0.00000000000000001;
-    final double TOLERANCE = 0.000000000000000001;
-    ```
-
-1. Open *ObjectComparison.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
-    - Modify the comparison between p1 and p3 (line 31) to be a comparison between p1 and p2 as shown below. What is the result and why?  
-    ```
-    if (p1 == p2)
-    ```
-
-    - Modify the comparison between p1 and p2 (line 15) to be a comparison between p1 and p3 as shown below. What is the result and why? 
-    ```
-    if (p1.equals(p3))  
-    ```
+   
 
 ## Conditional Experimentation
 1. Open *MinOfThree.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
@@ -91,7 +70,6 @@ Steps to Clone Examples
         min = num3;
     }
     ```
-            
 1. Open *Guessing.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Play three games and record what the correct answer was for each game
     - Modify the Random object so that it is instantiated using a seed number as shown below. Then Play the game three more times, recording the answer each time. What is the result and why?  
@@ -99,6 +77,27 @@ Steps to Clone Examples
     Random generator = new Random(123);
     ```
       
+## Data Comparison Experimentation
+1. Open *FloatingPointComparison.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Experiment by decreasing TOLERANCE values, identifying which provide a match that is "close enough"
+    ```
+    final double TOLERANCE = 0.00000000000001;
+    final double TOLERANCE = 0.000000000000001;
+    final double TOLERANCE = 0.0000000000000001;
+    final double TOLERANCE = 0.00000000000000001;
+    final double TOLERANCE = 0.000000000000000001;
+    ```
+
+1. Open *ObjectComparison.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
+    - Modify the comparison between p1 and p3 (line 31) to be a comparison between p1 and p2 as shown below. What is the result and why?  
+    ```
+    if (p1 == p2)
+    ```
+
+    - Modify the comparison between p1 and p2 (line 15) to be a comparison between p1 and p3 as shown below. What is the result and why? 
+    ```
+    if (p1.equals(p3))  
+    ```
 ## Switch Statement Experimentation
 1. Open *GradeReport.java*, read the code and run it to ensure it functions properly.  Then work through each of the experiments below and record your observations.
     - Run the program with each of the following grades as input values and record the results of each. 
